@@ -1,0 +1,9 @@
+certifi==2020.12.5 # qbittorrent-api
+chardet==4.0.0 # qbittorrent-api
+click==8.0.1
+colorama==0.4.4 # click
+idna==2.10 # qbittorrent-api
+qbittorrent-api==2021.5.22
+requests==2.25.1 # qbittorrent-api
+six==1.16.0 # qbittorrent-api
+urllib3==1.26.4 # qbittorrent-api
