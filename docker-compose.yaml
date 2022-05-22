@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  qbittorrent-tagger:
+    image: jaw3l/qbittorrent-tagger:latest
+    container_name: qbittorrent-tagger
+    environment:
+      ## qBitTorrent Information
+      - QB_HOST=localhost
+      - QB_PORT=8080
+      - QB_USER=admin
+      - QB_PASS=password
+      ## Booleans
+      - QT_FORCE_START=False # Optional
+      - QT_ADD_TAG=True # Optional
+      - QT_REMOVE_TAG=False # Optional
+      - QT_SUPER_SEED=True # Optional
+      ## Tag Name
+      - QT_TAG_NAME=Private # Optional
+      ## Debug Mode
+      - QT_DEBUG=False # Optional

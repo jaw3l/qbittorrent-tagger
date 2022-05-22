@@ -1,0 +1,8 @@
+# Ignore git and cache folders
+.git
+.cache
+.github
+src/__pycache__
+
+# Ignore all Markdown files
+*.md
