@@ -1,6 +1,6 @@
 # qBitTorrent Tagger
 
-Main purposes of this script are forcing private torrents to always seed and tag those. Project is very basic so feel free to contribute if you find any errors or improvements. New ideas are always welcome, too.
+Main purposes of this script are forcing private torrents to always seed and tagging those torrents with given tag name to organize. Project is very basic so feel free to contribute if you find any errors or improvements. New ideas are always welcome, too.
 
 This script uses Python client implementation for [qBittorrent's Web API](https://github.com/rmartin16/qbittorrent-api) by [rmmartin16](https://github.com/rmartin16).
 
@@ -95,10 +95,10 @@ You can build docker image with `docker-compose build` than start the container 
 pip3 install -r requirements.txt
 ```
 
-You can start the script after you edit the `settings.py` file.
+You can start the script after you edit the `src/settings.py` file.
 
 ```bash
-nano settings.py 
+nano src/settings.py 
 ```
 
 Save `(CTRL+O)` than exit `(CTRL+X)` from `nano`. Now you are ready to start the python script.
