@@ -1,4 +1,4 @@
-certifi==2020.12.5 # qbittorrent-api
+certifi==2022.12.7 # qbittorrent-api
 chardet==4.0.0 # qbittorrent-api
 click==8.0.1
 colorama==0.4.4 # click
