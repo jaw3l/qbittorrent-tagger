@@ -2,7 +2,7 @@ certifi==2023.7.22 # qbittorrent-api
 chardet==4.0.0 # qbittorrent-api
 click==8.0.1
 colorama==0.4.4 # click
-idna==2.10 # qbittorrent-api
+idna==3.7 # qbittorrent-api
 qbittorrent-api==2021.5.22
 requests==2.31.0 # qbittorrent-api
 six==1.16.0 # qbittorrent-api
